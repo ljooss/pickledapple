@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class lektuvelis : MonoBehaviour {
+public class lazeris : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -11,8 +11,6 @@ public class lektuvelis : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-       float xaxis = Input.GetAxis("Horizontal");
-
-        transform.Translate(Vector2.right * xaxis);
-    }
+		
+	}
 }
