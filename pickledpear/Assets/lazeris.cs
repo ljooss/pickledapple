@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class lazeris : MonoBehaviour {
 
+
+    public GameObject mickeymouse;
    
 	// Use this for initialization
 	void Start () {
@@ -12,9 +14,7 @@ public class lazeris : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-       // float yaxis = Input.GetAxis("Vertical");
-
-        transform.Translate(Vector2.up * 0.5f);
+      if mickeymouse
 
 
     

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class lektuvelis : MonoBehaviour {
 
-
+   
     public GameObject kulka;
 
     // Use this for initialization
