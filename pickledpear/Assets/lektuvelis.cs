@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class lektuvelis : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+
+    public GameObject kulka;
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -14,5 +17,16 @@ public class lektuvelis : MonoBehaviour {
        float xaxis = Input.GetAxis("Horizontal");
 
         transform.Translate(Vector2.right * xaxis);
+
+
+        //instantiate
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(kulka, transform.position, Quaternion.identity);
+            //  transform.Translate(Vector2.up * 2);
+        }
+
+
+
     }
 }
