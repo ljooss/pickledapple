@@ -18,6 +18,7 @@ public class lektuvelis : MonoBehaviour {
 
         transform.Translate(Vector2.right * xaxis);
 
+        transform.position = new Vector2(Mathf.Clamp(transform.position.x, -6.5f, 6.5f), -4.02f);
 
         //instantiate
         if (Input.GetKeyDown(KeyCode.Space))
